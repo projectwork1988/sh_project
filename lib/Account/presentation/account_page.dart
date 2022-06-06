@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterplugin/SidebarMenu/presentation/menu_page.dart';
+import 'package:sh_project/SidebarMenu/presentation/menu_page.dart';
 
 class SecondRoute extends StatelessWidget {
   const SecondRoute({Key? key}) : super(key: key);

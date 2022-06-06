@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterplugin/Login/SampleLogin/login_page.dart';
+import 'package:sh_project/Login/SampleLogin/login_page.dart';
 void main() {
   runApp(const MyApp());
 }
