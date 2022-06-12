@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sh_project/Home/home_page.dart';
 import 'package:sh_project/SidebarMenu/presentation/menu_page.dart';
 
 class SecondRoute extends StatelessWidget {
@@ -11,6 +12,13 @@ class SecondRoute extends StatelessWidget {
         title: const Text('Second Route'),
         backgroundColor: Colors.redAccent,
         actions: [
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+
+            },
+            child: const Text('Sign Out!'),
+          ),
           /*PopupMenuButton(
             // add icon, by default "3 dot" icon
             // icon: Icon(Icons.book)
@@ -58,13 +66,14 @@ class SecondRoute extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: ElevatedButton(
+        child:HomePage()
+        /* ElevatedButton(
           onPressed: () {
             Navigator.pop(context);
 
           },
           child: const Text('Sign Out!'),
-        ),
+        ),*/
       ),
     );
   }
